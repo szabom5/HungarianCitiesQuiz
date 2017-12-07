@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Map Puzzle</title>
+    <link rel="stylesheet" href="Quiz.css"/>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+      <header id='NameOfCity'>Eger</header>
+    <div id="map"></div>
+    <div id="kmlInfo"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src='./Cities.js'></script>
+    <script src='./huncities.js'></script>
+    <script src='./QuizDemo.js'></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArCEt3rn8XNYFywk0r0bqZ3_Z1avxytjg&libraries=geometry&callback=initMap"
+        async defer></script>
+  </body>
+</html>
